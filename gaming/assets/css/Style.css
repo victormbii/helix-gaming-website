@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar1{
+    width: 85%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+}
+.navbar1 ul{
+  padding-left: 450px;
+}
+.navbar1 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+}
+.navbar1 ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.main{
+    display: flex;
+}
+.header {
+    display: flex;
+    width: 100%;
+}
+.background {
+    width: 100%;
+    height: 100vh;
+    background: url(C:\Users\HP\Documents\gaming\IMAGES\mad.jpg) no-repeat;
+}
+
+.background2{
+  width: 100%;
+  height:auto;
+ background: url(/IMAGES/mad.jpg) repeat-y; 
+}
+.content .logo {
+    font-size: 30px;
+}
+.logo {
+    width: 100px;
+    cursor: pointer;
+    }
+.container{
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 550px;
+    border-radius: 10px;
+    margin-top: 100px;
+    background: url() no-repeat;
+    background-position: cover;
+    background-position: center;
+}
+.container .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 30%;
+    background: transparent;
+    padding: 50px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.btn1{
+    width: 70px;
+    height: 20px;
+    color: rgb(250, 54, 54);
+}
+.body {
+    font-family: sans-serif;
+    margin: 2rem;
+    padding: 20px;
+  }
+  
+  h1,h2,h3,h4 {
+    margin: 1rem 0;
+    color: aliceblue;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    color: aliceblue;
+  }
+  li {
+    margin-bottom: 1rem;
+    color: aliceblue;
+  }
+  label{
+    color: aliceblue;
+  }
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  select {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-bar {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    padding-left: 500px;
+  }
+  
+  ol {
+    padding-left: 20px;
+    color: aliceblue;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+    color: aliceblue;
+  }
+  .container3{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 350px;
+    border-radius: 30px;
+    margin-top: 10px;
+    background: url(/IMAGES/cod.jpg);
+    background-position: cover;
+    background-position: center;
+    background-size: cover;
+}
+.container1{
+  padding-left: 20px;
+}
+.container1 ul li{
+  color: red;
+}
+.container9{
+  padding-left: 20px;
+  margin-left: 30px
+}
+.container8{
+  padding-left: 20px;
+  margin-left: 30px
+}
+.container2{
+  justify-content: space-between;
+  display: inline-flex;
+  margin-left: 50px;
+}
+.register{
+  padding-top: 370px;
+  padding-left: 100px;
+}
+.container01{
+  background-color: black;
+  padding-top: 50px;
+}
+.footer-top-container {
+  padding: 20px 10px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.footer-top-container h2 {
+  text-align: center;
+  color: #d3d3d3;
+  font-size: 22px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.footer-top-container hr:hover {
+  width: 100%;
+}
+
+.footer-top {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.footer-top ul li {
+  display: inline;
+  padding: 0 42px;
+}
+
+.footer-top img {
+  width: 100px;
+  height: 70px;
+  display: inline-flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.footer-bottom-container {
+  padding: 20px 10px;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+ span{
+  color: aliceblue;
+ }
+ .email{
+  width: fit-content;
+  height: fit-content;
+ }
+ .container4{
+  padding-left: 20px;
+  margin-left: 80px
+ }
+ .container14{
+  margin-left:70px ;
+  padding-top: -10px;
+
+ }
+.container15{
+  margin-left: 70px;
+}
+.container-fluid{
+  margin-left: 60px;
+}
